@@ -23,7 +23,7 @@ router.post('/notes', (req, res) => {
 
 });
 
-router.delete('/notes/:id', (req, res) => {
+router.delete("/notes/:id", (req, res) => {
   const userIndex = getUserIndex(req.params.userId)
 
   if (userIndex === -1) return res.status(404).json({})
