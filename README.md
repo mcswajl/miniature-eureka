@@ -36,7 +36,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshot (taken during development)
 Screenshot of my website
-![Screenshot](.Develop/images/screenshot.jpg)
+![Screenshot](Develop/images/screenshot.jpg)
 
 ## Instruction of how to start
 
