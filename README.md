@@ -36,7 +36,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshot (taken during development)
 Screenshot of my website
-![Screenshot](./images/screenshot.jpg)
+![Screenshot](.Develop/images/screenshot.jpg)
 
 ## Instruction of how to start
 
@@ -61,6 +61,8 @@ You haven’t learned how to handle DELETE requests, but this application has th
 * `DELETE /api/notes/:id` should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
 
 ## Githublink
+
+https://github.com/mcswajl/miniature-eureka
 
 ## Contact
 Josh McSwain
