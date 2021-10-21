@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const notes = require("../../db/db.json");
+var uniqid = require('uniqid'); 
 
 const fs = require('fs');
 const path = require('path')
@@ -14,6 +15,10 @@ router.post('/notes', (req, res) => {
   // console.log(req.body)
 
   notes.push(req.body)
+  var uniqid = require('uniqid'); 
+
+  console.log(uniqid());
+  console.log(uniqid(), uniqid()); 
 
   // console.log(notes);
 
